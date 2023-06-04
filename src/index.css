@@ -4,6 +4,11 @@
   
 }
 
+html,body{
+  height: 100%;
+
+}
+
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-image: linear-gradient(to bottom right, rgb(67, 191, 106), rgb(204, 239, 228));
@@ -11,4 +16,14 @@ body{
   justify-content: center;
   align-items: center;
   
+}
+
+h1{
+  margin-bottom: 60px;
+}
+
+.container{
+  height: 600px;
+  width:600px;
+  background-color: black;
 }
